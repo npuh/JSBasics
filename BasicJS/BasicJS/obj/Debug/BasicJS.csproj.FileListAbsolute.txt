@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\BasicJS\BasicJS\bin\Debug\BasicJS.exe.config
+C:\Users\Administrator\source\repos\BasicJS\BasicJS\bin\Debug\BasicJS.exe
+C:\Users\Administrator\source\repos\BasicJS\BasicJS\bin\Debug\BasicJS.pdb
+C:\Users\Administrator\source\repos\BasicJS\BasicJS\obj\Debug\BasicJS.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\BasicJS\BasicJS\obj\Debug\BasicJS.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\BasicJS\BasicJS\obj\Debug\BasicJS.exe
+C:\Users\Administrator\source\repos\BasicJS\BasicJS\obj\Debug\BasicJS.pdb

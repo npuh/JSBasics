@@ -1,0 +1,159 @@
+﻿body
+{
+    padding-top: 100px;
+    background-image: url('Content/images/sky.png');
+    font: Rockwell;
+    background-size: 400px 300px;
+}
+header{
+    background-color: #fcf8f8;
+    border: 2px solid black;   
+}
+#headerh1{
+    text-align: center;
+    font-family: Rockwell;
+    font-weight: 100;
+}
+h1{
+    padding-top: 10px;
+}
+.center 
+{
+    margin: auto;
+    width: 15%;
+    border-radius: 4px;
+    padding: 10px;
+}
+.center img{
+    margin: auto;  
+}
+
+.centerish{
+    margin: auto;
+    padding: 1%;
+    width: 52%;
+}
+.centerize{
+    margin: auto;
+    width: 6%;
+
+}
+input{
+    border: 2px solid black;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-size: large;
+    text-align: center;
+}
+.container{
+    background-color: black;
+   
+}
+#answer{
+    padding-bottom: 5px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    height: 70px;
+    border: 2px solid black;  
+}
+#answer2 {
+    padding-bottom: 5px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    height: 70px;
+    border: 2px solid black;
+}
+#answer3 {
+    font-size: x-large;
+    color: red;
+    width: 400px;
+    height: 35px;
+    background-color: #f5e9e9;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+#palindromeButton {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #eadbdb;
+    font-family: Rockwell;
+}
+#palindromeButton:hover{
+    background-color: #fbf999;
+    font-weight: 100;
+}
+#nameButton {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #eadbdb;
+    font-family: Rockwell;
+    margin: auto;
+}
+
+    #nameButton:hover {
+        background-color: #fbf999;
+        font-weight: 100;
+    }
+    
+    #stringButton {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #eadbdb;
+    font-family: Rockwell;
+}
+
+    #stringButton:hover {
+        background-color: #fbf999;
+        font-weight: 100;
+    }
+#resetButton {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #eadbdb;
+    font-family: Rockwell;
+}
+
+    #resetButton:hover {
+        background-color: #fbf999;
+        font-weight: 100;
+    }
+button {
+    font-family: Rockwell;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #eadbdb;
+}
+    button:hover {
+        background-color: #fbf999;
+        font-weight: 100;
+    }
+div{
+    font-family: Rockwell;
+}
+#mySelect {
+    font-family: Rockwell;
+    padding: 5px;
+    background-color: #f1eeee;
+    border-radius: 4px;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left; 
+    text-align: center;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    border: 1px solid black; 
+    border-radius: 4px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}

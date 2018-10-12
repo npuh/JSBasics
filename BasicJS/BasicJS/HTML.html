@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="Stylesheet.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="divHidden3" id="answer3" hidden>
+      <p class="centerish" id="nameUp"></p> 
+    </div>
+    <header width="100%" height="200" class="header"id="header">
+        <h1 id="headerh1">Here you can check if a word is a palindrome and other random stuff..</h1>
+        <div class="centerize">
+            <button id="nameButton" type="button" onclick="Name()">Click me!</button>
+        </div>        
+    </header>
+    <div class="row">
+        <div class="column" style="background-color: #ccc" id="column1" name="divi">
+            <h2>Select background image here</h2>
+            <div class="dropdown">
+                <div id="myDropdown" class="dropdown-content">
+                    <select id="mySelect">
+                        <option value="All">All themes</option>
+                        <option value="Puzzle">Puzzle</option>
+                        <option value="Red">Red</option>
+                        <option value="Sky">Sky</option>
+                        <option value="Vacation">Vacation</option>
+                        <option value="White">White</option>
+                    </select>
+                </div>
+            </div>
+            <button type="button" onclick="theme(event)">Change Background</button>
+        </div>
+        <div class="column" style="background-color: #bbb" id="column2" name="divi">
+            <h2>Test palindrome here</h2>
+            <form id="form1">
+                <div class="centerish">
+                    Type a word: <input name="word" type="text" size="25" id="word" onclick="KeyboardHandler(event)" />
+                    <br />
+                    <button onclick="isPalindrome()" id="palindromeButton">Check</button>
+                    <button onclick="resetAll()" id="resetButton">Reset Everything</button>
+                </div>
+            </form>
+            <div id="answer" hidden class="divHidden">
+                <p id="demo"></p>
+            </div>
+        </div>
+        <div class="column" style="background-color: #ccc" id="column3"name="divi">
+            <h2>Reverse words</h2>
+            <form id="form2">
+                <div class="centerish">
+                    Type a word: <input name="word2" type="text" size="25" id="word2" onclick="KeyboardHandler2(event)" />
+                    <br />
+                    <button onclick="reverseString()" id="stringButton">Check</button>
+                    <div id="answer2" hidden class="divHidden2">
+                        <p id="demo2"></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Scripts.js"></script>
+</body>
+</html>
